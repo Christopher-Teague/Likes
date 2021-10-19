@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes - 3 boxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="header display-flex centered">
+                <h1>Network
+                </h1>
+            </div>
+            <div class="centered text-center">
+                <h1>Your Feed
+                </h1>
+            </div>
+        </div>
+        <div class="main-body display-flex space-evenly align-center">
+            <div class="left-column align-center">
+                <div class="user-profile column display-flex justify-center space-evenly rounded shadow">
+                    <img class="circle" src="https://placekeanu.com/80/80" alt="keanu">
+                    <a href="#">Add an avatar
+                    </a>
+                    <h2>Keanu Doe</h2>
+                </div>
+            </div>
+            <div class="right-column align-center">
+                <div class="user1 display-flex column space-evenly rounded shadow">
+                    <div class="user-name display-flex space-evenly centered">
+                        <div>
+                        <h3>This Guy</h3>
+                        </div>
+                        <div class="likes-box display-flex space-between centered">
+                            <div>
+                                <h4 id="likes0">1 like</h4>
+                            </div>
+                            <div>
+                                <button onclick="add1(0, likeCounter0)" class="btn rounded shadow">Like</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4>Just some random text<br>
+                            and a <a href="">link!</a></h4>
+                    </div>
+                </div>
+                <div class="user1 display-flex column space-evenly rounded shadow">
+                    <div class="user-name display-flex space-evenly centered">
+                        <div>
+                        <h3>That Guy</h3>
+                        </div>
+                        <div class="likes-box display-flex space-between centered">
+                            <div>
+                                <h4 id="likes1">1 like</h4>
+                            </div>
+                            <div>
+                                <button onclick="add1(1, likeCounter1)" class="btn rounded shadow">Like</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4>You should check <a href="">this</a> out!</h4>
+                    </div>
+                </div>
+                <div class="user1 display-flex column space-evenly rounded shadow">
+                    <div class="user-name display-flex space-evenly centered">
+                        <div>
+                        <h3>The other Guy</h3>
+                        </div>
+                        <div class="likes-box display-flex space-between centered">
+                            <div>
+                                <h4 id="likes2">1 like</h4>
+                            </div>
+                            <div>
+                                <button onclick="add1(2, likeCounter2)" class="btn rounded shadow">Like</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4>I hear <a href="">Brendan</a> is an awesome teacher!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

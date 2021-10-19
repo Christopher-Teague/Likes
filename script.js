@@ -1,10 +1,11 @@
 var count = [1,1,1];
-var likeCounter = document.querySelector("#likes");
+var likeCounter0 = document.querySelector('#likes0');
+var likeCounter1 = document.querySelector('#likes1');
+var likeCounter2 = document.querySelector('#likes2');
 
-console.log(likeCounter)
 
-function add1(index) {
+function add1(index, x) {
     count[index]++;
-    likeCounter.innerHTML = count[index] + " likes";
+    (x).innerHTML = count[index] + " likes";
     console.log(count)
 }
