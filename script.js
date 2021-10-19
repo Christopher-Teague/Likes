@@ -1,4 +1,4 @@
-var count = [1,12,1];
+var count = [1,1,1];
 var likeCounter = document.querySelector("#likes");
 
 console.log(likeCounter)
