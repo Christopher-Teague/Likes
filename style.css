@@ -1,0 +1,80 @@
+/*CSS Reset*/
+* {     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.display-flex { 
+    display: flex;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-around {
+    align-content: space-around;
+}
+
+.centered {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+.rounded {
+    border-radius: 8px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px black;
+}
+
+.btn {
+    color: azure;
+    background-color: dodgerblue;
+    width: 60px;
+    height: 25px;
+    font-size: medium;
+    /* border-style: none; */
+}
+/* Master */
+
+.user1 {
+    width: 350px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.likes-box {
+    width: 40%;
+}
